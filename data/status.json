@@ -3,7 +3,7 @@
   "status": "warning",
   "message": "Source inspection complete; live GMP extraction still needs verification against the page structure.",
   "source": "https://ipowatch.in/",
-  "checked_at": "2026-10-25T20:43:28+00:00",
+  "checked_at": "2026-10-25T20:49:11+00:00",
   "last_success_at": null,
   "source_reachable": true,
   "lastAttemptUtc": null,
