@@ -1,5 +1,5 @@
 {
-  "demo": true,
+  "demo": false,
   "status": "warning",
   "message": "Source inspection complete; live GMP extraction still needs verification against the page structure.",
   "source": "https://ipowatch.in/",

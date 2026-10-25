@@ -2,6 +2,6 @@
   "source": "https://ipowatch.in/",
   "updated_at": null,
   "data_state": "awaiting_first_successful_collection",
-  "demo": true,
+  "demo": false,
   "ipos": []
 }

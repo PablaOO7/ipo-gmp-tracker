@@ -23,7 +23,7 @@ async function loadData() {
   if (!Array.isArray(ipoData.ipos)) throw new Error("Invalid IPO dataset");
   ipos = ipoData.ipos;
   $("#demoNotice").hidden = !ipoData.demo;
-  $("#updatedAt").textContent = ipoData.demo ? "Illustrative sample dataset" : "Data loaded";
+  $("#updatedAt").textContent = ipoData.demo ? "Illustrative sample dataset" : (ipos.length ? "Data loaded" : "Waiting for first successful collection");
   renderAll();
 }
 function currentGmp(ipo) { return Number(ipo.gmpHistory?.at(-1)?.value ?? ipo.gmp ?? 0); }
