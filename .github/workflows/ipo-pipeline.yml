@@ -1,6 +1,10 @@
 name: IPO Data Pipeline
 
 on:
+  push:
+    branches:
+      - master
+      - main
   schedule:
     - cron: "30 3 * * *"
   workflow_dispatch:
