@@ -1,14 +1,16 @@
 {
-  "demo": false,
-  "status": "warning",
-  "message": "Source inspection complete; live GMP extraction still needs verification against the page structure.",
+  "state": "success",
+  "status": "success",
+  "message": "Live collection succeeded and records were validated.",
   "source": "https://ipowatch.in/",
-  "checked_at": "2026-10-25T20:43:28+00:00",
-  "last_success_at": null,
+  "checked_at": "2026-10-25T21:24:18+00:00",
+  "last_success_at": "2026-10-25T21:24:18+00:00",
   "source_reachable": true,
-  "lastAttemptUtc": null,
-  "lastSuccessUtc": null,
-  "sourceObservedAt": null,
-  "nextScheduledRunUtc": null,
-  "lastError": null
+  "next_scheduled_run": "Daily, 09:00 IST",
+  "lastAttemptUtc": "2026-10-25T21:24:17+00:00",
+  "lastSuccessUtc": "2026-10-25T21:24:18+00:00",
+  "sourceObservedAt": "2026-10-25T21:24:17+00:00",
+  "nextScheduledRunUtc": "Daily, 09:00 IST",
+  "lastError": null,
+  "demo": false
 }

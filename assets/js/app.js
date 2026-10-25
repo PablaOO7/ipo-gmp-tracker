@@ -14,16 +14,43 @@ let ipos = [], statusData = {}, expandedId = null, chart = null;
 
 async function loadData() {
   const [ipoResponse, statusResponse] = await Promise.all([
-    fetch("data/ipos.json", { cache: "no-store" }),
-    fetch("data/status.json", { cache: "no-store" })
+    fetch("./data/ipos.json", { cache: "no-store" }),
+    fetch("./data/status.json", { cache: "no-store" })
   ]);
-  if (!ipoResponse.ok || !statusResponse.ok) throw new Error("Could not load JSON data");
+
+  if (!ipoResponse.ok) {
+    throw new Error(`Could not load IPO data (${ipoResponse.status})`);
+  }
+
+  if (!statusResponse.ok) {
+    throw new Error(`Could not load pipeline status (${statusResponse.status})`);
+  }
+
   const ipoData = await ipoResponse.json();
   statusData = await statusResponse.json();
-  if (!Array.isArray(ipoData.ipos)) throw new Error("Invalid IPO dataset");
+
+  if (!Array.isArray(ipoData.ipos)) {
+    throw new Error("Invalid IPO dataset: ipos must be an array");
+  }
+
   ipos = ipoData.ipos;
-  $("#demoNotice").hidden = !ipoData.demo;
-  $("#updatedAt").textContent = ipoData.demo ? "Illustrative sample dataset" : (ipos.length ? "Data loaded" : "Waiting for first successful collection");
+  expandedId = null;
+
+  $("#demoNotice").hidden = true;
+
+  if (ipoData.demo === true) {
+    $("#updatedAt").textContent = "Demo data is disabled. Remove demo records from the data source.";
+  } else if (ipos.length === 0) {
+    $("#updatedAt").textContent = "No IPO records available — awaiting verified collection.";
+  } else {
+    $("#updatedAt").textContent = `Last data update: ${ipoData.updated_at || "timestamp unavailable"}`;
+  }
+
+  const emptyState = $("#emptyState");
+  emptyState.textContent = ipos.length === 0
+    ? "No IPO data available yet. Waiting for a successful, verified collection."
+    : "No IPOs match these filters.";
+
   renderAll();
 }
 function currentGmp(ipo) { return Number(ipo.gmpHistory?.at(-1)?.value ?? ipo.gmp ?? 0); }
@@ -43,7 +70,7 @@ function statsMarkup() {
   return [
     ["Tracked IPOs", ipos.length, "Across Mainboard and SME"],
     ["Open / Upcoming", active, "Issue calendar"],
-    ["GMP above 20%", qualifying, "Latest sample observation"],
+    ["GMP above 20%", qualifying, "Based on available records"],
     ["Highest GMP", `${highest.toFixed(1)}%`, "Against upper issue price"]
   ].map(([label, value, note]) => `<div class="stat"><span>${label}</span><strong>${value}</strong><small>${note}</small></div>`).join("");
 }
@@ -130,15 +157,24 @@ function renderChart(ipo) {
 function renderTables() {
   $("#calendarContent").innerHTML = `<table><thead><tr><th>Company</th><th>Type</th><th>Status</th><th>Opens</th><th>Closes</th><th>Listing</th></tr></thead><tbody>${ipos.map(i => `<tr><td>${escapeHTML(i.company)}</td><td>${escapeHTML(i.category)}</td><td>${escapeHTML(i.status)}</td><td>${date(i.openDate)}</td><td>${date(i.closeDate)}</td><td>${date(i.listingDate)}</td></tr>`).join("")}</tbody></table>`;
   $("#subscriptionContent").innerHTML = `<table><thead><tr><th>Company</th><th>Retail</th><th>NII</th><th>QIB</th><th>As of</th></tr></thead><tbody>${ipos.map(i => `<tr><td>${escapeHTML(i.company)}</td><td>${i.subscription?.retail ?? "—"}</td><td>${i.subscription?.nii ?? "—"}</td><td>${i.subscription?.qib ?? "—"}</td><td>${date(i.subscription?.asOf)}</td></tr>`).join("")}</tbody></table>`;
-  $("#performanceContent").innerHTML = [["Verified listings","0","No verified results in demo data"],["Mean prediction error","—","Requires actual listing prices"],["Positive listings","—","Requires a completed sample"]].map(([a,b,c]) => `<div class="stat"><span>${a}</span><strong>${b}</strong><small>${c}</small></div>`).join("");
+  $("#performanceContent").innerHTML = [["Verified listings","0","No verified listing results recorded"],["Mean prediction error","—","Requires actual listing prices"],["Positive listings","—","Requires a completed sample"]].map(([a,b,c]) => `<div class="stat"><span>${a}</span><strong>${b}</strong><small>${c}</small></div>`).join("");
 }
 function renderStatus() {
-  $("#pipelineStatus").textContent = statusData.status || "Unknown";
-  $("#pipelineMessage").textContent = statusData.message || "";
-  $("#lastAttempt").textContent = statusData.lastAttemptUtc || "—";
-  $("#lastSuccess").textContent = statusData.lastSuccessUtc || "—";
-  $("#sourceObserved").textContent = statusData.sourceObservedAt || "—";
-  $("#nextRun").textContent = statusData.nextScheduledRunUtc || "—";
+  const state = statusData.state || statusData.status || "unknown";
+  const labels = {
+    success: "Success",
+    warning: "Warning",
+    failed: "Failed",
+    running: "Running",
+    unknown: "Not connected"
+  };
+
+  $("#pipelineStatus").textContent = labels[state.toLowerCase()] || state;
+  $("#pipelineMessage").textContent = statusData.message || "Waiting for a verified data collection.";
+  $("#lastAttempt").textContent = statusData.checked_at || statusData.lastAttemptUtc || "—";
+  $("#lastSuccess").textContent = statusData.last_success_at || statusData.lastSuccessUtc || "—";
+  $("#sourceObserved").textContent = statusData.source_observed_at || statusData.sourceObservedAt || (statusData.source_reachable === true ? "Reachable" : statusData.source_reachable === false ? "Unreachable" : "—");
+  $("#nextRun").textContent = statusData.next_scheduled_run_utc || statusData.nextScheduledRunUtc || "Daily, 09:00 IST";
 }
 function renderAll() { $("#stats").innerHTML = statsMarkup(); renderCards(); renderTables(); renderStatus(); }
 

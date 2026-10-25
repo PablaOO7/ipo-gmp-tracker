@@ -1,7 +1,248 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": null,
-  "data_state": "awaiting_first_successful_collection",
+  "updated_at": "2026-10-25T21:24:18+00:00",
+  "data_state": "live",
   "demo": false,
-  "ipos": []
+  "ipos": [
+    {
+      "id": "bombay-coated-and-special-steels-mainboard",
+      "company": "Bombay Coated and Special Steels",
+      "category": "Mainboard",
+      "status": "Upcoming",
+      "issuePriceLow": 82.0,
+      "issuePriceHigh": 90.0,
+      "gmp": 8.0,
+      "gmpPercent": 6.1,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 8.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "m-k-sons-fine-jewels-mainboard",
+      "company": "M.K.Sons Fine Jewels",
+      "category": "Mainboard",
+      "status": "Upcoming",
+      "issuePriceLow": 162.0,
+      "issuePriceHigh": 170.0,
+      "gmp": 8.0,
+      "gmpPercent": 4.94,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 8.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "sfc-environmental-technologies-mainboard",
+      "company": "SFC Environmental Technologies",
+      "category": "Mainboard",
+      "status": "Upcoming",
+      "issuePriceLow": 330.0,
+      "issuePriceHigh": 360.0,
+      "gmp": 30.0,
+      "gmpPercent": 9.09,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 30.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "bls-polymers-mainboard",
+      "company": "BLS Polymers",
+      "category": "Mainboard",
+      "status": "Upcoming",
+      "issuePriceLow": 150.0,
+      "issuePriceHigh": 185.0,
+      "gmp": 35.0,
+      "gmpPercent": 23.33,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 35.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "eaaa-india-alternatives-mainboard",
+      "company": "EAAA India Alternatives",
+      "category": "Mainboard",
+      "status": "Upcoming",
+      "issuePriceLow": 1665.0,
+      "issuePriceHigh": 1745.0,
+      "gmp": 80.0,
+      "gmpPercent": 4.8,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 80.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "jio-platforms-mainboard",
+      "company": "Jio Platforms",
+      "category": "Mainboard",
+      "status": "Closed",
+      "issuePriceLow": 1119.0,
+      "issuePriceHigh": 1369.0,
+      "gmp": 250.0,
+      "gmpPercent": 22.34,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 250.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "paras-healthcare-mainboard",
+      "company": "Paras Healthcare",
+      "category": "Mainboard",
+      "status": "Closed",
+      "issuePriceLow": 693.0,
+      "issuePriceHigh": 703.0,
+      "gmp": 10.0,
+      "gmpPercent": 1.44,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 10.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "antala-industries-sme",
+      "company": "Antala Industries",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 67.0,
+      "issuePriceHigh": 67.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 0.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "ajwa-projects-sme",
+      "company": "Ajwa Projects",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 203.0,
+      "issuePriceHigh": 203.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 0.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "carver-roboweld-sme",
+      "company": "Carver Roboweld",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 80.0,
+      "issuePriceHigh": 80.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 0.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "wiscon-industries-sme",
+      "company": "Wiscon Industries",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 204.0,
+      "issuePriceHigh": 204.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 0.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "core4-engineers-sme",
+      "company": "Core4 Engineers",
+      "category": "SME",
+      "status": "Open",
+      "issuePriceLow": 93.0,
+      "issuePriceHigh": 93.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "value": 0.0
+        }
+      ],
+      "openDate": null,
+      "closeDate": null,
+      "allotmentDate": null,
+      "listingDate": null
+    }
+  ]
 }
