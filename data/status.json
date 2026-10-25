@@ -1,10 +1,14 @@
 {
   "demo": true,
-  "status": "Not connected",
+  "status": "warning",
+  "message": "Source inspection complete; live GMP extraction still needs verification against the page structure.",
+  "source": "https://ipowatch.in/",
+  "checked_at": "2026-10-25T20:30:01+00:00",
+  "last_success_at": null,
+  "source_reachable": true,
   "lastAttemptUtc": null,
   "lastSuccessUtc": null,
   "sourceObservedAt": null,
   "nextScheduledRunUtc": null,
-  "lastError": null,
-  "message": "Sample data only. Live data collection has not been configured."
+  "lastError": null
 }
