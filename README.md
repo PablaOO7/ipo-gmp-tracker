@@ -10,6 +10,10 @@ https://ipowatch.in/
 The initial collector inspects the source page but does not publish
 GMP records until the source-specific data mapping has been verified.
 
+This repository includes a GitHub Actions pipeline that validates the
+collector and writes a source inspection snapshot for review before any
+live GMP extraction is enabled.
+
 ## Requirements
 
 - Python 3.12 or later
