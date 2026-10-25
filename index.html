@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a2b">
+  <meta name="description" content="Indian IPO GMP, calendar, subscription and listing performance tracker.">
+  <title>IPO GMP Tracker</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">I</span> IPO Tracker</a>
+    <span class="demo-pill">DEMO DATA</span>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div><p class="eyebrow">INDIAN PRIMARY MARKETS</p><h1>IPO Dashboard</h1>
+      <p class="muted">Track GMP trends, upcoming issues and listing performance.</p></div>
+      <button id="refreshButton" class="button secondary">Reload data</button>
+    </section>
+    <div class="notice" id="demoNotice"><strong>Illustrative data only.</strong>
+      This dashboard is not connected to a live GMP source. Do not use these figures for investment decisions.</div>
+    <section class="stats-grid" id="stats"></section>
+    <nav class="tabs" aria-label="Dashboard sections">
+      <button class="tab active" data-view="gmp">GMP Tracker</button>
+      <button class="tab" data-view="calendar">IPO Calendar</button>
+      <button class="tab" data-view="subscription">Subscription</button>
+      <button class="tab" data-view="performance">Performance</button>
+    </nav>
+    <section id="gmpView" class="view">
+      <div class="section-heading"><div><h2>IPO GMP Tracker</h2>
+        <p class="muted">Filter IPOs and expand a card to inspect daily history.</p></div><span id="resultCount" class="muted"></span></div>
+      <div class="filters">
+        <input id="searchInput" type="search" placeholder="Search company…" aria-label="Search IPOs">
+        <select id="categoryFilter" aria-label="Filter by category"><option value="All">All categories</option><option value="Mainboard">Mainboard</option><option value="SME">SME</option></select>
+        <select id="statusFilter" aria-label="Filter by IPO status"><option value="All">All statuses</option><option value="Upcoming">Upcoming</option><option value="Open">Open</option><option value="Closed">Closed</option><option value="Listed">Listed</option></select>
+        <label class="check-filter"><input id="gmpFilter" type="checkbox"> GMP above 20%</label>
+        <select id="sortFilter" aria-label="Sort IPOs"><option value="gmp">Highest GMP %</option><option value="change">Largest daily increase</option><option value="date">Closing date</option><option value="name">Company name</option></select>
+      </div>
+      <div id="ipoList" class="ipo-list"></div><p id="emptyState" class="empty-state" hidden>No IPOs match these filters.</p>
+    </section>
+    <section id="calendarView" class="view" hidden><div class="section-heading"><h2>IPO Calendar</h2></div><div class="panel table-wrap" id="calendarContent"></div></section>
+    <section id="subscriptionView" class="view" hidden><div class="section-heading"><h2>Subscription</h2></div><div class="panel table-wrap" id="subscriptionContent"></div><p class="muted">Subscription figures will remain unavailable until a permitted data source is connected.</p></section>
+    <section id="performanceView" class="view" hidden><div class="section-heading"><h2>Listing Performance</h2></div><div id="performanceContent" class="stats-grid"></div><p class="muted">Performance statistics will be calculated from recorded GMP estimates and verified actual listing prices. No accuracy claims are made from sample data.</p></section>
+    <section class="status-panel panel">
+      <div><p class="eyebrow">PIPELINE STATUS</p><h2 id="pipelineStatus">Not connected</h2><p id="pipelineMessage" class="muted">Waiting for a live data source.</p></div>
+      <div class="status-grid">
+        <div><span>Last attempt</span><strong id="lastAttempt">—</strong></div><div><span>Last success</span><strong id="lastSuccess">—</strong></div>
+        <div><span>Source observed</span><strong id="sourceObserved">—</strong></div><div><span>Next scheduled run</span><strong id="nextRun">—</strong></div>
+      </div>
+    </section>
+    <footer><p>IPO GMP is unofficial and may be inaccurate. It is not a guarantee of listing price or investment return.</p><p id="updatedAt">Sample dataset</p></footer>
+  </main>
+</body>
+</html>

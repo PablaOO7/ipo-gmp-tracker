@@ -1,0 +1,86 @@
+{
+  "demo": true,
+  "currency": "INR",
+  "ipos": [
+    {
+      "id": "demo-orbit-components",
+      "company": "Orbit Components",
+      "symbol": "DEMO",
+      "category": "Mainboard",
+      "status": "Open",
+      "issuePriceLow": 75,
+      "issuePriceHigh": 80,
+      "issueSizeCr": 540,
+      "lotSize": 160,
+      "openDate": "2026-10-20",
+      "closeDate": "2026-10-27",
+      "allotmentDate": "2026-10-28",
+      "listingDate": "2026-10-30",
+      "gmp": 22,
+      "gmpHistory": [
+        {
+          "date": "2026-10-21",
+          "value": 18
+        },
+        {
+          "date": "2026-10-22",
+          "value": 26
+        },
+        {
+          "date": "2026-10-23",
+          "value": 24
+        },
+        {
+          "date": "2026-10-24",
+          "value": 22
+        }
+      ],
+      "subscription": {
+        "retail": null,
+        "nii": null,
+        "qib": null,
+        "asOf": null
+      },
+      "actualListingPrice": null,
+      "source": "Illustrative sample data"
+    },
+    {
+      "id": "demo-sunfield-energy",
+      "company": "Sunfield Energy",
+      "symbol": "DEMO2",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 115,
+      "issuePriceHigh": 122,
+      "issueSizeCr": 42,
+      "lotSize": 1000,
+      "openDate": "2026-10-29",
+      "closeDate": "2026-10-31",
+      "allotmentDate": "2026-11-03",
+      "listingDate": "2026-11-06",
+      "gmp": 12,
+      "gmpHistory": [
+        {
+          "date": "2026-10-24",
+          "value": 8
+        },
+        {
+          "date": "2026-10-25",
+          "value": 10
+        },
+        {
+          "date": "2026-10-26",
+          "value": 12
+        }
+      ],
+      "subscription": {
+        "retail": null,
+        "nii": null,
+        "qib": null,
+        "asOf": null
+      },
+      "actualListingPrice": null,
+      "source": "Illustrative sample data"
+    }
+  ]
+}

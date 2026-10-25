@@ -1,0 +1,10 @@
+{
+  "demo": true,
+  "status": "Not connected",
+  "lastAttemptUtc": null,
+  "lastSuccessUtc": null,
+  "sourceObservedAt": null,
+  "nextScheduledRunUtc": null,
+  "lastError": null,
+  "message": "Sample data only. Live data collection has not been configured."
+}
