@@ -3,13 +3,6 @@ name: Deploy IPO Tracker
 on:
   push:
     branches: [master]
-    paths:
-      - "index.html"
-      - "assets/**"
-      - "data/**"
-      - "scripts/**"
-      - "tests/**"
-      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
