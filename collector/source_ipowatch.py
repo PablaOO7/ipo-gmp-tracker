@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import re
+from datetime import date, datetime, timezone
 from typing import Any
 
 import requests
@@ -44,11 +45,11 @@ def _parse_numeric(value: Any) -> float | None:
     text = _clean_text(value)
     if not text:
         return None
-    cleaned = re.sub(r"[^0-9.\-]", "", text)
-    if not cleaned or cleaned in {"-", "."}:
+    match = re.search(r"[-+]?\d[\d,]*(?:\.\d+)?", text)
+    if not match:
         return None
     try:
-        return float(cleaned)
+        return float(match.group(0).replace(",", ""))
     except ValueError:
         return None
 
@@ -56,6 +57,66 @@ def _parse_numeric(value: Any) -> float | None:
 def _slugify(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
     return slug or "ipo"
+
+
+def _parse_date_range(value: str) -> tuple[str | None, str | None]:
+    match = re.fullmatch(r"\s*(\d{1,2})\s*-\s*(\d{1,2})\s+([A-Za-z]+)\s*", value)
+    if not match:
+        return None, None
+
+    start_day, end_day = int(match.group(1)), int(match.group(2))
+    try:
+        end_month = datetime.strptime(match.group(3)[:3].title(), "%b").month
+    except ValueError:
+        return None, None
+
+    today = datetime.now(timezone.utc).date()
+    end_year = today.year
+    if end_month < today.month and today.month - end_month > 6:
+        end_year += 1
+    elif end_month > today.month and end_month - today.month > 6:
+        end_year -= 1
+
+    start_month, start_year = end_month, end_year
+    if start_day > end_day:
+        start_month -= 1
+        if start_month == 0:
+            start_month = 12
+            start_year -= 1
+
+    try:
+        return (
+            date(start_year, start_month, start_day).isoformat(),
+            date(end_year, end_month, end_day).isoformat(),
+        )
+    except ValueError:
+        return None, None
+
+
+def _section_table(soup, section_name: str):
+    heading_text = soup.find(string=re.compile(re.escape(section_name), re.IGNORECASE))
+    if not heading_text:
+        return None
+    heading = heading_text.find_parent(["h1", "h2", "h3", "h4", "h5", "h6"])
+    return heading.find_next("table") if heading else heading_text.find_next("table")
+
+
+def _extract_issue_sizes(soup) -> dict[str, float]:
+    issue_sizes = {}
+    for section_name in ("Latest Mainboard IPO", "Latest SME IPO"):
+        table = _section_table(soup, section_name)
+        if not table:
+            continue
+        for row in table.find_all("tr"):
+            if row.find("th"):
+                continue
+            cells = [_clean_text(cell.get_text(" ", strip=True)) for cell in row.find_all("td")]
+            if len(cells) < 3:
+                continue
+            amount = _parse_numeric(cells[2])
+            if amount is not None:
+                issue_sizes[re.sub(r"[^a-z0-9]", "", cells[0].lower())] = amount
+    return issue_sizes
 
 
 def _extract_status(raw_name: str) -> str:
@@ -94,23 +155,24 @@ def _parse_gmp_row(row, category: str) -> dict[str, Any] | None:
     if not name:
         return None
 
+    open_date, close_date = _parse_date_range(cells[5]) if len(cells) > 5 else (None, None)
+
     gmp_value = _parse_numeric(cells[1])
-    issue_min = _parse_numeric(cells[3])
+    issue_prices = [
+        float(value.replace(",", ""))
+        for value in re.findall(r"\d[\d,]*(?:\.\d+)?", cells[3])
+    ]
+    issue_min = min(issue_prices) if issue_prices else None
+    issue_max = max(issue_prices) if issue_prices else None
     issue_max_and_percent = cells[4] if len(cells) > 4 else ""
-    issue_max = None
     gmp_percent = None
 
     match = re.search(r"₹?\s*([\d,]+(?:\.\d+)?)\s*\(([-+]?\d+(?:\.\d+)?)%\)", issue_max_and_percent)
     if match:
-        issue_max = float(match.group(1).replace(",", ""))
         gmp_percent = float(match.group(2))
-    elif issue_min is not None:
-        issue_max = issue_min
-
     if gmp_value is None and issue_min is not None:
         gmp_value = issue_min
 
-    observed_date = None
     record = {
         "id": f"{_slugify(name)}-{category.lower()}",
         "company": name,
@@ -121,8 +183,9 @@ def _parse_gmp_row(row, category: str) -> dict[str, Any] | None:
         "gmp": gmp_value,
         "gmpPercent": gmp_percent,
         "gmpHistory": [],
-        "openDate": None,
-        "closeDate": None,
+        "issueSizeCr": None,
+        "openDate": open_date,
+        "closeDate": close_date,
         "allotmentDate": None,
         "listingDate": None,
     }
@@ -140,22 +203,21 @@ def extract_records(html: str | None = None, timeout: int = 20) -> list[dict[str
     soup = BeautifulSoup(html, "html.parser")
     records: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
+    issue_sizes = _extract_issue_sizes(soup)
 
     for section_name, category in (("Current Mainboard IPO GMP", "Mainboard"), ("Current SME IPO GMP", "SME")):
-        heading = soup.find(string=re.compile(re.escape(section_name), re.IGNORECASE))
-        if not heading:
-            continue
-        table = heading.find_parent("h2")
-        if table is not None:
-            table = table.find_next("table")
-        else:
-            table = heading.find_next("table")
+        table = _section_table(soup, section_name)
         if not table:
             continue
         for row in table.find_all("tr"):
             parsed = _parse_gmp_row(row, category)
             if parsed is None:
                 continue
+            normalized_name = re.sub(r"[^a-z0-9]", "", parsed["company"].lower())
+            for candidate, issue_size in issue_sizes.items():
+                if candidate in normalized_name or normalized_name in candidate:
+                    parsed["issueSizeCr"] = issue_size
+                    break
             record_id = parsed["id"]
             index = 2
             while record_id in seen_ids:

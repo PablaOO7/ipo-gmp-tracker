@@ -114,6 +114,11 @@ class CollectorTests(unittest.TestCase):
               <tr><td>Bombay Coated and Special Steels Upcoming</td><td>₹8</td><td>🟢</td><td>₹82</td><td>₹90 (6.10%)</td><td>29-2 Nov</td></tr>
               <tr><td>M.K.Sons Fine Jewels Upcoming</td><td>₹8</td><td>🟢</td><td>₹162</td><td>₹170 (4.94%)</td><td>28-30 Oct</td></tr>
             </table>
+            <h2>Latest Mainboard IPO</h2>
+            <table>
+              <tr><th>Company</th><th>Dates</th><th>Issue Size</th></tr>
+              <tr><td>Bombay Coated and Special Steels</td><td>29-2 November</td><td>₹183.06 Cr.</td></tr>
+            </table>
             <h2>Current SME IPO GMP</h2>
             <table>
               <tr><td>Antala Industries Upcoming</td><td>₹0</td><td>🟡</td><td>₹67</td><td>₹67 (0.00%)</td><td>29-2 Nov</td></tr>
@@ -127,6 +132,11 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(records[0]["category"], "Mainboard")
         self.assertEqual(records[0]["status"], "Upcoming")
         self.assertEqual(records[0]["gmp"], 8)
+        self.assertEqual(records[0]["issuePriceLow"], 82)
+        self.assertEqual(records[0]["issuePriceHigh"], 82)
+        self.assertEqual(records[0]["openDate"], "2026-10-29")
+        self.assertEqual(records[0]["closeDate"], "2026-11-02")
+        self.assertEqual(records[0]["issueSizeCr"], 183.06)
         self.assertEqual(records[2]["category"], "SME")
 
 

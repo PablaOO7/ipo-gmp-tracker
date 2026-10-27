@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-25T21:24:18+00:00",
+  "updated_at": "2026-10-27T20:00:40+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -10,17 +10,22 @@
       "category": "Mainboard",
       "status": "Upcoming",
       "issuePriceLow": 82.0,
-      "issuePriceHigh": 90.0,
-      "gmp": 8.0,
-      "gmpPercent": 6.1,
+      "issuePriceHigh": 91.0,
+      "gmp": 9.0,
+      "gmpPercent": 10.98,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 8.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 9.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 183.06,
+      "openDate": "2026-10-29",
+      "closeDate": "2026-11-02",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -37,10 +42,15 @@
         {
           "date": "2026-10-25",
           "value": 8.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 8.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 275.4,
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -48,19 +58,24 @@
       "id": "sfc-environmental-technologies-mainboard",
       "company": "SFC Environmental Technologies",
       "category": "Mainboard",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 330.0,
-      "issuePriceHigh": 360.0,
-      "gmp": 30.0,
-      "gmpPercent": 9.09,
+      "issuePriceHigh": 352.0,
+      "gmp": 22.0,
+      "gmpPercent": 6.67,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 30.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 22.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 668.0,
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -68,19 +83,24 @@
       "id": "bls-polymers-mainboard",
       "company": "BLS Polymers",
       "category": "Mainboard",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 150.0,
-      "issuePriceHigh": 185.0,
-      "gmp": 35.0,
-      "gmpPercent": 23.33,
+      "issuePriceHigh": 190.0,
+      "gmp": 40.0,
+      "gmpPercent": 26.67,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 35.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 40.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 255.0,
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -88,19 +108,24 @@
       "id": "eaaa-india-alternatives-mainboard",
       "company": "EAAA India Alternatives",
       "category": "Mainboard",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 1665.0,
-      "issuePriceHigh": 1745.0,
-      "gmp": 80.0,
-      "gmpPercent": 4.8,
+      "issuePriceHigh": 1685.0,
+      "gmp": 20.0,
+      "gmpPercent": 1.2,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 80.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 20.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 1200.0,
+      "openDate": "2026-10-26",
+      "closeDate": "2026-10-28",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -110,17 +135,22 @@
       "category": "Mainboard",
       "status": "Closed",
       "issuePriceLow": 1119.0,
-      "issuePriceHigh": 1369.0,
-      "gmp": 250.0,
-      "gmpPercent": 22.34,
+      "issuePriceHigh": 1379.0,
+      "gmp": 260.0,
+      "gmpPercent": 23.23,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 250.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 260.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 30213.0,
+      "openDate": "2026-10-21",
+      "closeDate": "2026-10-23",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -130,17 +160,106 @@
       "category": "Mainboard",
       "status": "Closed",
       "issuePriceLow": 693.0,
-      "issuePriceHigh": 703.0,
-      "gmp": 10.0,
-      "gmpPercent": 1.44,
+      "issuePriceHigh": 704.0,
+      "gmp": 11.0,
+      "gmpPercent": 1.59,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 10.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 11.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 1450.0,
+      "openDate": "2026-10-21",
+      "closeDate": "2026-10-23",
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "johnsoncab-electricals-sme",
+      "company": "Johnsoncab Electricals",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 200.0,
+      "issuePriceHigh": 200.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "value": 0.0
+        }
+      ],
+      "issueSizeCr": 56.02,
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "hgs-india-sme",
+      "company": "HGS (India)",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 120.0,
+      "issuePriceHigh": 120.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "value": 0.0
+        }
+      ],
+      "issueSizeCr": 34.56,
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "maxwell-engineering-sme",
+      "company": "Maxwell Engineering",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 158.0,
+      "issuePriceHigh": 158.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "value": 0.0
+        }
+      ],
+      "issueSizeCr": 57.64,
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "vectras-enprocon-sme",
+      "company": "Vectras Enprocon",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 105.0,
+      "issuePriceHigh": 105.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "value": 0.0
+        }
+      ],
+      "issueSizeCr": 53.05,
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -157,10 +276,15 @@
         {
           "date": "2026-10-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 23.33,
+      "openDate": "2026-10-29",
+      "closeDate": "2026-11-02",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -170,17 +294,22 @@
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 203.0,
-      "issuePriceHigh": 203.0,
-      "gmp": 0.0,
-      "gmpPercent": 0.0,
+      "issuePriceHigh": 213.0,
+      "gmp": 10.0,
+      "gmpPercent": 4.93,
       "gmpHistory": [
         {
           "date": "2026-10-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 10.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 38.05,
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -197,10 +326,15 @@
         {
           "date": "2026-10-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 28.29,
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -208,7 +342,7 @@
       "id": "wiscon-industries-sme",
       "company": "Wiscon Industries",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 204.0,
       "issuePriceHigh": 204.0,
       "gmp": 0.0,
@@ -217,10 +351,15 @@
         {
           "date": "2026-10-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 110.0,
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -237,10 +376,15 @@
         {
           "date": "2026-10-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.0
         }
       ],
-      "openDate": null,
-      "closeDate": null,
+      "issueSizeCr": 54.82,
+      "openDate": "2026-10-23",
+      "closeDate": "2026-10-27",
       "allotmentDate": null,
       "listingDate": null
     }

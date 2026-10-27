@@ -42,11 +42,11 @@ jobs:
       - name: Run source inspection
         run: python -m collector.collect
 
-      - name: Commit pipeline status and inspection
+      - name: Commit IPO data and pipeline status
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/status.json data/source-inspection.json
+          git add data/ipos.json data/status.json data/source-inspection.json
           git diff --cached --quiet || git commit -m "Update IPO pipeline status"
           git push

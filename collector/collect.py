@@ -123,9 +123,28 @@ def main() -> int:
         try:
             extracted = extract_records()
             observation_date = datetime.now(timezone.utc).date().isoformat()
+            previous_records = {
+                record.get("id"): record
+                for record in current_dataset.get("ipos", [])
+                if isinstance(record, dict) and isinstance(record.get("id"), str)
+            }
             for ipo in extracted:
+                previous = previous_records.get(ipo["id"], {})
                 gmp = ipo.get("gmp")
-                ipo["gmpHistory"] = [] if gmp is None else [{"date": observation_date, "value": gmp}]
+                history = list(previous.get("gmpHistory", []))
+                if gmp is None:
+                    ipo["gmp"] = previous.get("gmp")
+                    ipo["gmpPercent"] = previous.get("gmpPercent")
+                else:
+                    observation = {"date": observation_date, "value": gmp}
+                    if history and history[-1].get("date") == observation_date:
+                        history[-1] = observation
+                    else:
+                        history.append(observation)
+                ipo["gmpHistory"] = history
+                for field in ("issueSizeCr", "openDate", "closeDate", "allotmentDate", "listingDate"):
+                    if ipo.get(field) is None:
+                        ipo[field] = previous.get(field)
             validated = validate_dataset({**current_dataset, **{"ipos": extracted}})
             current_dataset = validated
             current_dataset["updated_at"] = now_utc()
