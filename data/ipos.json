@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-27T20:00:40+00:00",
+  "updated_at": "2026-10-27T20:07:39+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -10,7 +10,7 @@
       "category": "Mainboard",
       "status": "Upcoming",
       "issuePriceLow": 82.0,
-      "issuePriceHigh": 91.0,
+      "issuePriceHigh": 82.0,
       "gmp": 9.0,
       "gmpPercent": 10.98,
       "gmpHistory": [
@@ -35,7 +35,7 @@
       "category": "Mainboard",
       "status": "Upcoming",
       "issuePriceLow": 162.0,
-      "issuePriceHigh": 170.0,
+      "issuePriceHigh": 162.0,
       "gmp": 8.0,
       "gmpPercent": 4.94,
       "gmpHistory": [
@@ -60,7 +60,7 @@
       "category": "Mainboard",
       "status": "Open",
       "issuePriceLow": 330.0,
-      "issuePriceHigh": 352.0,
+      "issuePriceHigh": 330.0,
       "gmp": 22.0,
       "gmpPercent": 6.67,
       "gmpHistory": [
@@ -85,7 +85,7 @@
       "category": "Mainboard",
       "status": "Open",
       "issuePriceLow": 150.0,
-      "issuePriceHigh": 190.0,
+      "issuePriceHigh": 150.0,
       "gmp": 40.0,
       "gmpPercent": 26.67,
       "gmpHistory": [
@@ -110,7 +110,7 @@
       "category": "Mainboard",
       "status": "Open",
       "issuePriceLow": 1665.0,
-      "issuePriceHigh": 1685.0,
+      "issuePriceHigh": 1665.0,
       "gmp": 20.0,
       "gmpPercent": 1.2,
       "gmpHistory": [
@@ -135,7 +135,7 @@
       "category": "Mainboard",
       "status": "Closed",
       "issuePriceLow": 1119.0,
-      "issuePriceHigh": 1379.0,
+      "issuePriceHigh": 1119.0,
       "gmp": 260.0,
       "gmpPercent": 23.23,
       "gmpHistory": [
@@ -160,7 +160,7 @@
       "category": "Mainboard",
       "status": "Closed",
       "issuePriceLow": 693.0,
-      "issuePriceHigh": 704.0,
+      "issuePriceHigh": 693.0,
       "gmp": 11.0,
       "gmpPercent": 1.59,
       "gmpHistory": [
@@ -294,7 +294,7 @@
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 203.0,
-      "issuePriceHigh": 213.0,
+      "issuePriceHigh": 203.0,
       "gmp": 10.0,
       "gmpPercent": 4.93,
       "gmpHistory": [
