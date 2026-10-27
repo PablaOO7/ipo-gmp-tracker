@@ -3,7 +3,7 @@ from unittest.mock import Mock, patch
 
 from collector.collect import inspect_source
 from collector.schema import normalize_record, validate_dataset
-from collector.source_ipowatch import extract_records
+from collector.source_ipowatch import _parse_gmp_history, extract_records
 
 
 class CollectorTests(unittest.TestCase):
@@ -111,7 +111,7 @@ class CollectorTests(unittest.TestCase):
             <h2>Current Mainboard IPO GMP</h2>
             <table>
               <tr><th>Company</th><th>GMP</th><th>Potential</th><th>Issue Price</th><th>Expected Listing</th><th>Open/Close</th></tr>
-              <tr><td>Bombay Coated and Special Steels Upcoming</td><td>₹8</td><td>🟢</td><td>₹82</td><td>₹90 (6.10%)</td><td>29-2 Nov</td></tr>
+              <tr><td><a href="/bombay-coated-special-steels-ipo-gmp-today/">Bombay Coated and Special Steels Upcoming</a></td><td>₹8</td><td>🟢</td><td>₹82</td><td>₹90 (6.10%)</td><td>29-2 Nov</td></tr>
               <tr><td>M.K.Sons Fine Jewels Upcoming</td><td>₹8</td><td>🟢</td><td>₹162</td><td>₹170 (4.94%)</td><td>28-30 Oct</td></tr>
             </table>
             <h2>Latest Mainboard IPO</h2>
@@ -137,7 +137,27 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(records[0]["openDate"], "2026-10-29")
         self.assertEqual(records[0]["closeDate"], "2026-11-02")
         self.assertEqual(records[0]["issueSizeCr"], 183.06)
+        self.assertEqual(records[0]["sourceUrl"], "https://ipowatch.in/bombay-coated-special-steels-ipo-gmp-today/")
         self.assertEqual(records[2]["category"], "SME")
+
+    def test_parse_detail_page_gmp_history(self):
+        html = """
+        <table>
+          <tr><th>Date</th><th>IPO GMP</th><th>GMP Trend</th><th>Gain</th><th>Last Updated</th></tr>
+          <tr><td>27 October</td><td>₹9</td><td>🟢</td><td>10.98%</td><td>17:06</td></tr>
+          <tr><td>26 October</td><td>₹8</td><td>🟢</td><td>6.10%</td><td>17:20</td></tr>
+          <tr><td>24 October</td><td>₹8</td><td>🟢</td><td>6.10%</td><td>17:19</td></tr>
+        </table>
+        """
+        history = _parse_gmp_history(html)
+        self.assertEqual(
+            history,
+            [
+            {"date": "2026-10-24", "value": 8.0},
+            {"date": "2026-10-26", "value": 8.0},
+            {"date": "2026-10-27", "value": 9.0},
+            ],
+        )
 
 
 if __name__ == "__main__":

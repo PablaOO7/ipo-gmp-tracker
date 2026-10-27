@@ -131,17 +131,22 @@ def main() -> int:
             for ipo in extracted:
                 previous = previous_records.get(ipo["id"], {})
                 gmp = ipo.get("gmp")
-                history = list(previous.get("gmpHistory", []))
+                history_by_date = {
+                    item["date"]: item
+                    for item in previous.get("gmpHistory", [])
+                    if isinstance(item, dict) and isinstance(item.get("date"), str)
+                }
+                history_by_date.update({
+                    item["date"]: item
+                    for item in ipo.get("gmpHistory", [])
+                    if isinstance(item, dict) and isinstance(item.get("date"), str)
+                })
                 if gmp is None:
                     ipo["gmp"] = previous.get("gmp")
                     ipo["gmpPercent"] = previous.get("gmpPercent")
                 else:
-                    observation = {"date": observation_date, "value": gmp}
-                    if history and history[-1].get("date") == observation_date:
-                        history[-1] = observation
-                    else:
-                        history.append(observation)
-                ipo["gmpHistory"] = history
+                    history_by_date[observation_date] = {"date": observation_date, "value": gmp}
+                ipo["gmpHistory"] = [history_by_date[key] for key in sorted(history_by_date)]
                 for field in ("issueSizeCr", "openDate", "closeDate", "allotmentDate", "listingDate"):
                     if ipo.get(field) is None:
                         ipo[field] = previous.get(field)

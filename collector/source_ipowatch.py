@@ -4,6 +4,7 @@ import os
 import re
 from datetime import date, datetime, timezone
 from typing import Any
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -119,6 +120,48 @@ def _extract_issue_sizes(soup) -> dict[str, float]:
     return issue_sizes
 
 
+def _parse_history_date(value: str) -> str | None:
+    match = re.fullmatch(r"\s*(\d{1,2})\s+([A-Za-z]+)(?:,?\s+(\d{4}))?\s*", value)
+    if not match:
+        return None
+    try:
+        month = datetime.strptime(match.group(2)[:3].title(), "%b").month
+        today = datetime.now(timezone.utc).date()
+        year = int(match.group(3)) if match.group(3) else today.year
+        if not match.group(3) and month > today.month:
+            year -= 1
+        return date(year, month, int(match.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
+def _parse_gmp_history(html: str) -> list[dict[str, Any]]:
+    soup = BeautifulSoup(html, "html.parser")
+    for table in soup.find_all("table"):
+        for header_row in table.find_all("tr"):
+            headers = [
+                _clean_text(cell.get_text(" ", strip=True)).lower()
+                for cell in header_row.find_all(["th", "td"])
+            ]
+            date_index = next((i for i, header in enumerate(headers) if "date" in header), None)
+            gmp_index = next((i for i, header in enumerate(headers) if "gmp" in header and "trend" not in header), None)
+            if date_index is None or gmp_index is None:
+                continue
+
+            history = []
+            for row in table.find_all("tr"):
+                cells = [_clean_text(cell.get_text(" ", strip=True)) for cell in row.find_all("td")]
+                if max(date_index, gmp_index) >= len(cells):
+                    continue
+                observation_date = _parse_history_date(cells[date_index])
+                value = _parse_numeric(cells[gmp_index])
+                if observation_date is not None and value is not None:
+                    history.append({"date": observation_date, "value": value})
+            if history:
+                return sorted(history, key=lambda observation: observation["date"])
+    return []
+
+
 def _extract_status(raw_name: str) -> str:
     text = _clean_text(raw_name).lower()
     for status in ("upcoming", "open", "closed", "listed"):
@@ -155,6 +198,11 @@ def _parse_gmp_row(row, category: str) -> dict[str, Any] | None:
     if not name:
         return None
 
+    detail_link = row.find("a", href=True)
+    detail_url = urljoin(SOURCE_URL, detail_link["href"]) if detail_link else None
+    if detail_url and urlparse(detail_url).hostname not in {"ipowatch.in", "www.ipowatch.in"}:
+        detail_url = None
+
     open_date, close_date = _parse_date_range(cells[5]) if len(cells) > 5 else (None, None)
 
     gmp_value = _parse_numeric(cells[1])
@@ -176,6 +224,7 @@ def _parse_gmp_row(row, category: str) -> dict[str, Any] | None:
     record = {
         "id": f"{_slugify(name)}-{category.lower()}",
         "company": name,
+        "sourceUrl": detail_url,
         "category": category,
         "status": status,
         "issuePriceLow": issue_min,
@@ -194,6 +243,7 @@ def _parse_gmp_row(row, category: str) -> dict[str, Any] | None:
 
 def extract_records(html: str | None = None, timeout: int = 20) -> list[dict[str, Any]]:
     """Extract the live Current Mainboard/SME GMP tables from the IPO Watch homepage."""
+    fetch_detail_pages = html is None
     if html is None:
         headers = {"User-Agent": "IPO-GMP-Tracker/1.0 (personal research project)"}
         response = requests.get(SOURCE_URL, headers=headers, timeout=timeout)
@@ -229,6 +279,19 @@ def extract_records(html: str | None = None, timeout: int = 20) -> list[dict[str
 
     if not records:
         raise ValueError("No valid IPO Watch GMP rows were found in the homepage HTML.")
+
+    if fetch_detail_pages:
+        headers = {"User-Agent": "IPO-GMP-Tracker/1.0 (personal research project)"}
+        for record in records:
+            detail_url = record.get("sourceUrl")
+            if not detail_url:
+                continue
+            try:
+                response = requests.get(detail_url, headers=headers, timeout=min(timeout, 8))
+                response.raise_for_status()
+            except requests.RequestException:
+                continue
+            record["gmpHistory"] = _parse_gmp_history(response.text or "")
     return records
 
 

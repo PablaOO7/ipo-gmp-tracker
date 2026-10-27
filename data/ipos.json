@@ -1,12 +1,13 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-27T20:07:39+00:00",
+  "updated_at": "2026-10-27T20:22:21+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
     {
       "id": "bombay-coated-and-special-steels-mainboard",
       "company": "Bombay Coated and Special Steels",
+      "sourceUrl": "https://ipowatch.in/bombay-coated-special-steels-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
       "status": "Upcoming",
       "issuePriceLow": 82.0,
@@ -15,7 +16,19 @@
       "gmpPercent": 10.98,
       "gmpHistory": [
         {
+          "date": "2026-10-23",
+          "value": 5.0
+        },
+        {
+          "date": "2026-10-24",
+          "value": 8.0
+        },
+        {
           "date": "2026-10-25",
+          "value": 8.0
+        },
+        {
+          "date": "2026-10-26",
           "value": 8.0
         },
         {
@@ -32,6 +45,7 @@
     {
       "id": "m-k-sons-fine-jewels-mainboard",
       "company": "M.K.Sons Fine Jewels",
+      "sourceUrl": "https://ipowatch.in/mksons-fine-jewels-ipo-gmp-today/",
       "category": "Mainboard",
       "status": "Upcoming",
       "issuePriceLow": 162.0,
@@ -41,6 +55,10 @@
       "gmpHistory": [
         {
           "date": "2026-10-25",
+          "value": 8.0
+        },
+        {
+          "date": "2026-10-26",
           "value": 8.0
         },
         {
@@ -57,6 +75,7 @@
     {
       "id": "sfc-environmental-technologies-mainboard",
       "company": "SFC Environmental Technologies",
+      "sourceUrl": "https://ipowatch.in/sfc-environmental-technologies-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
       "status": "Open",
       "issuePriceLow": 330.0,
@@ -65,8 +84,24 @@
       "gmpPercent": 6.67,
       "gmpHistory": [
         {
+          "date": "2026-10-22",
+          "value": 20.0
+        },
+        {
+          "date": "2026-10-23",
+          "value": 21.0
+        },
+        {
+          "date": "2026-10-24",
+          "value": 21.0
+        },
+        {
           "date": "2026-10-25",
           "value": 30.0
+        },
+        {
+          "date": "2026-10-26",
+          "value": 32.0
         },
         {
           "date": "2026-10-27",
@@ -82,6 +117,7 @@
     {
       "id": "bls-polymers-mainboard",
       "company": "BLS Polymers",
+      "sourceUrl": "https://ipowatch.in/bls-polymers-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
       "status": "Open",
       "issuePriceLow": 150.0,
@@ -90,8 +126,32 @@
       "gmpPercent": 26.67,
       "gmpHistory": [
         {
+          "date": "2026-10-20",
+          "value": 30.0
+        },
+        {
+          "date": "2026-10-21",
+          "value": 30.0
+        },
+        {
+          "date": "2026-10-22",
+          "value": 35.0
+        },
+        {
+          "date": "2026-10-23",
+          "value": 38.0
+        },
+        {
+          "date": "2026-10-24",
+          "value": 38.0
+        },
+        {
           "date": "2026-10-25",
           "value": 35.0
+        },
+        {
+          "date": "2026-10-26",
+          "value": 38.0
         },
         {
           "date": "2026-10-27",
@@ -107,6 +167,7 @@
     {
       "id": "eaaa-india-alternatives-mainboard",
       "company": "EAAA India Alternatives",
+      "sourceUrl": "https://ipowatch.in/eaaa-india-alternatives-ipo-gmp-today/",
       "category": "Mainboard",
       "status": "Open",
       "issuePriceLow": 1665.0,
@@ -115,8 +176,16 @@
       "gmpPercent": 1.2,
       "gmpHistory": [
         {
+          "date": "2026-10-24",
+          "value": 121.0
+        },
+        {
           "date": "2026-10-25",
           "value": 80.0
+        },
+        {
+          "date": "2026-10-26",
+          "value": 50.0
         },
         {
           "date": "2026-10-27",
@@ -132,6 +201,7 @@
     {
       "id": "jio-platforms-mainboard",
       "company": "Jio Platforms",
+      "sourceUrl": "https://ipowatch.in/jio-platforms-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
       "status": "Closed",
       "issuePriceLow": 1119.0,
@@ -140,7 +210,103 @@
       "gmpPercent": 23.23,
       "gmpHistory": [
         {
+          "date": "2026-10-02",
+          "value": 150.0
+        },
+        {
+          "date": "2026-10-03",
+          "value": 125.0
+        },
+        {
+          "date": "2026-10-04",
+          "value": 145.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 160.0
+        },
+        {
+          "date": "2026-10-06",
+          "value": 168.0
+        },
+        {
+          "date": "2026-10-07",
+          "value": 185.0
+        },
+        {
+          "date": "2026-10-08",
+          "value": 177.0
+        },
+        {
+          "date": "2026-10-09",
+          "value": 175.0
+        },
+        {
+          "date": "2026-10-10",
+          "value": 170.0
+        },
+        {
+          "date": "2026-10-11",
+          "value": 170.0
+        },
+        {
+          "date": "2026-10-12",
+          "value": 182.0
+        },
+        {
+          "date": "2026-10-13",
+          "value": 211.0
+        },
+        {
+          "date": "2026-10-14",
+          "value": 200.0
+        },
+        {
+          "date": "2026-10-15",
+          "value": 230.0
+        },
+        {
+          "date": "2026-10-16",
+          "value": 225.0
+        },
+        {
+          "date": "2026-10-17",
+          "value": 220.0
+        },
+        {
+          "date": "2026-10-18",
+          "value": 245.0
+        },
+        {
+          "date": "2026-10-19",
+          "value": 260.0
+        },
+        {
+          "date": "2026-10-20",
+          "value": 260.0
+        },
+        {
+          "date": "2026-10-21",
+          "value": 250.0
+        },
+        {
+          "date": "2026-10-22",
+          "value": 245.0
+        },
+        {
+          "date": "2026-10-23",
+          "value": 260.0
+        },
+        {
+          "date": "2026-10-24",
+          "value": 260.0
+        },
+        {
           "date": "2026-10-25",
+          "value": 250.0
+        },
+        {
+          "date": "2026-10-26",
           "value": 250.0
         },
         {
@@ -157,6 +323,7 @@
     {
       "id": "paras-healthcare-mainboard",
       "company": "Paras Healthcare",
+      "sourceUrl": "https://ipowatch.in/paras-healthcare-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
       "status": "Closed",
       "issuePriceLow": 693.0,
@@ -165,7 +332,51 @@
       "gmpPercent": 1.59,
       "gmpHistory": [
         {
+          "date": "2026-10-14",
+          "value": 75.0
+        },
+        {
+          "date": "2026-10-15",
+          "value": 115.0
+        },
+        {
+          "date": "2026-10-16",
+          "value": 90.0
+        },
+        {
+          "date": "2026-10-17",
+          "value": 95.0
+        },
+        {
+          "date": "2026-10-19",
+          "value": 95.0
+        },
+        {
+          "date": "2026-10-20",
+          "value": 50.0
+        },
+        {
+          "date": "2026-10-21",
+          "value": 50.0
+        },
+        {
+          "date": "2026-10-22",
+          "value": 15.0
+        },
+        {
+          "date": "2026-10-23",
+          "value": 10.0
+        },
+        {
+          "date": "2026-10-24",
+          "value": 10.0
+        },
+        {
           "date": "2026-10-25",
+          "value": 10.0
+        },
+        {
+          "date": "2026-10-26",
           "value": 10.0
         },
         {
@@ -182,6 +393,7 @@
     {
       "id": "johnsoncab-electricals-sme",
       "company": "Johnsoncab Electricals",
+      "sourceUrl": "https://ipowatch.in/johnsoncab-electricals-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 200.0,
@@ -203,6 +415,7 @@
     {
       "id": "hgs-india-sme",
       "company": "HGS (India)",
+      "sourceUrl": "https://ipowatch.in/hgs-india-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 120.0,
@@ -224,6 +437,7 @@
     {
       "id": "maxwell-engineering-sme",
       "company": "Maxwell Engineering",
+      "sourceUrl": "https://ipowatch.in/maxwell-engineering-solutions-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 158.0,
@@ -245,6 +459,7 @@
     {
       "id": "vectras-enprocon-sme",
       "company": "Vectras Enprocon",
+      "sourceUrl": "https://ipowatch.in/vectras-enprocon-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 105.0,
@@ -266,6 +481,7 @@
     {
       "id": "antala-industries-sme",
       "company": "Antala Industries",
+      "sourceUrl": "https://ipowatch.in/antala-industries-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 67.0,
@@ -291,6 +507,7 @@
     {
       "id": "ajwa-projects-sme",
       "company": "Ajwa Projects",
+      "sourceUrl": "https://ipowatch.in/ajwa-projects-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 203.0,
@@ -316,6 +533,7 @@
     {
       "id": "carver-roboweld-sme",
       "company": "Carver Roboweld",
+      "sourceUrl": "https://ipowatch.in/carver-roboweld-ipo-gmp-today/",
       "category": "SME",
       "status": "Upcoming",
       "issuePriceLow": 80.0,
@@ -341,6 +559,7 @@
     {
       "id": "wiscon-industries-sme",
       "company": "Wiscon Industries",
+      "sourceUrl": "https://ipowatch.in/wiscon-industries-ipo-gmp-today/",
       "category": "SME",
       "status": "Open",
       "issuePriceLow": 204.0,
@@ -366,6 +585,7 @@
     {
       "id": "core4-engineers-sme",
       "company": "Core4 Engineers",
+      "sourceUrl": "https://ipowatch.in/core4-engineers-ipo-gmp-grey-market-premium/",
       "category": "SME",
       "status": "Open",
       "issuePriceLow": 93.0,
