@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-27T20:27:08+00:00",
+  "updated_at": "2026-10-28T09:55:37+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -34,6 +34,10 @@
         {
           "date": "2026-10-27",
           "value": 9.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 9.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -47,11 +51,11 @@
       "company": "M.K.Sons Fine Jewels",
       "sourceUrl": "https://ipowatch.in/mksons-fine-jewels-ipo-gmp-today/",
       "category": "Mainboard",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 162.0,
       "issuePriceHigh": 162.0,
-      "gmp": 8.0,
-      "gmpPercent": 4.94,
+      "gmp": 10.0,
+      "gmpPercent": 6.17,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -64,6 +68,10 @@
         {
           "date": "2026-10-27",
           "value": 8.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 10.0
         }
       ],
       "issueSizeCr": 275.4,
@@ -80,8 +88,8 @@
       "status": "Open",
       "issuePriceLow": 330.0,
       "issuePriceHigh": 330.0,
-      "gmp": 22.0,
-      "gmpPercent": 6.67,
+      "gmp": 18.0,
+      "gmpPercent": 5.45,
       "gmpHistory": [
         {
           "date": "2026-10-22",
@@ -106,6 +114,10 @@
         {
           "date": "2026-10-27",
           "value": 22.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 18.0
         }
       ],
       "issueSizeCr": 668.0,
@@ -122,8 +134,8 @@
       "status": "Open",
       "issuePriceLow": 150.0,
       "issuePriceHigh": 150.0,
-      "gmp": 40.0,
-      "gmpPercent": 26.67,
+      "gmp": 44.0,
+      "gmpPercent": 29.33,
       "gmpHistory": [
         {
           "date": "2026-10-20",
@@ -156,6 +168,10 @@
         {
           "date": "2026-10-27",
           "value": 40.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 44.0
         }
       ],
       "issueSizeCr": 255.0,
@@ -172,8 +188,8 @@
       "status": "Open",
       "issuePriceLow": 1665.0,
       "issuePriceHigh": 1665.0,
-      "gmp": 20.0,
-      "gmpPercent": 1.2,
+      "gmp": 12.0,
+      "gmpPercent": 0.72,
       "gmpHistory": [
         {
           "date": "2026-10-24",
@@ -190,6 +206,10 @@
         {
           "date": "2026-10-27",
           "value": 20.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 12.0
         }
       ],
       "issueSizeCr": 1200.0,
@@ -206,8 +226,8 @@
       "status": "Closed",
       "issuePriceLow": 1119.0,
       "issuePriceHigh": 1119.0,
-      "gmp": 260.0,
-      "gmpPercent": 23.23,
+      "gmp": 247.0,
+      "gmpPercent": 22.07,
       "gmpHistory": [
         {
           "date": "2026-10-02",
@@ -312,6 +332,10 @@
         {
           "date": "2026-10-27",
           "value": 260.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 247.0
         }
       ],
       "issueSizeCr": 30213.0,
@@ -328,8 +352,8 @@
       "status": "Closed",
       "issuePriceLow": 693.0,
       "issuePriceHigh": 693.0,
-      "gmp": 11.0,
-      "gmpPercent": 1.59,
+      "gmp": 13.0,
+      "gmpPercent": 1.88,
       "gmpHistory": [
         {
           "date": "2026-10-14",
@@ -382,11 +406,37 @@
         {
           "date": "2026-10-27",
           "value": 11.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 13.0
         }
       ],
       "issueSizeCr": 1450.0,
       "openDate": "2026-10-21",
       "closeDate": "2026-10-23",
+      "allotmentDate": null,
+      "listingDate": null
+    },
+    {
+      "id": "vedant-poly-fabs-sme",
+      "company": "Vedant Poly Fabs",
+      "sourceUrl": "https://ipowatch.in/vedant-poly-fabs-ipo-gmp-today/",
+      "category": "SME",
+      "status": "Upcoming",
+      "issuePriceLow": 94.0,
+      "issuePriceHigh": 94.0,
+      "gmp": 0.0,
+      "gmpPercent": 0.0,
+      "gmpHistory": [
+        {
+          "date": "2026-10-28",
+          "value": 0.0
+        }
+      ],
+      "issueSizeCr": 56.68,
+      "openDate": "2026-11-02",
+      "closeDate": "2026-11-04",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -403,6 +453,10 @@
       "gmpHistory": [
         {
           "date": "2026-10-27",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
           "value": 0.0
         }
       ],
@@ -426,6 +480,10 @@
         {
           "date": "2026-10-27",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 34.56,
@@ -442,12 +500,16 @@
       "status": "Upcoming",
       "issuePriceLow": 158.0,
       "issuePriceHigh": 158.0,
-      "gmp": 0.0,
-      "gmpPercent": 0.0,
+      "gmp": 27.0,
+      "gmpPercent": 17.09,
       "gmpHistory": [
         {
           "date": "2026-10-27",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 27.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -469,6 +531,10 @@
       "gmpHistory": [
         {
           "date": "2026-10-27",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
           "value": 0.0
         }
       ],
@@ -496,6 +562,10 @@
         {
           "date": "2026-10-27",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 23.33,
@@ -509,11 +579,11 @@
       "company": "Ajwa Projects",
       "sourceUrl": "https://ipowatch.in/ajwa-projects-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 203.0,
       "issuePriceHigh": 203.0,
-      "gmp": 10.0,
-      "gmpPercent": 4.93,
+      "gmp": 38.0,
+      "gmpPercent": 18.72,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -522,6 +592,10 @@
         {
           "date": "2026-10-27",
           "value": 10.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 38.0
         }
       ],
       "issueSizeCr": 38.05,
@@ -535,7 +609,7 @@
       "company": "Carver Roboweld",
       "sourceUrl": "https://ipowatch.in/carver-roboweld-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 80.0,
       "issuePriceHigh": 80.0,
       "gmp": 0.0,
@@ -547,6 +621,10 @@
         },
         {
           "date": "2026-10-27",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
           "value": 0.0
         }
       ],
@@ -574,6 +652,10 @@
         {
           "date": "2026-10-27",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 110.0,
@@ -587,7 +669,7 @@
       "company": "Core4 Engineers",
       "sourceUrl": "https://ipowatch.in/core4-engineers-ipo-gmp-grey-market-premium/",
       "category": "SME",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 93.0,
       "issuePriceHigh": 93.0,
       "gmp": 0.0,
@@ -599,6 +681,10 @@
         },
         {
           "date": "2026-10-27",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-28",
           "value": 0.0
         }
       ],
