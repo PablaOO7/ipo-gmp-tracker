@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-29T10:18:37+00:00",
+  "updated_at": "2026-10-30T10:20:17+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -42,6 +42,10 @@
         {
           "date": "2026-10-29",
           "value": 9.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 9.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -58,8 +62,8 @@
       "status": "Open",
       "issuePriceLow": 162.0,
       "issuePriceHigh": 162.0,
-      "gmp": 15.0,
-      "gmpPercent": 9.26,
+      "gmp": 12.0,
+      "gmpPercent": 7.41,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -80,6 +84,10 @@
         {
           "date": "2026-10-29",
           "value": 15.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 12.0
         }
       ],
       "issueSizeCr": 275.4,
@@ -93,11 +101,11 @@
       "company": "SFC Environmental Technologies",
       "sourceUrl": "https://ipowatch.in/sfc-environmental-technologies-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 330.0,
       "issuePriceHigh": 330.0,
-      "gmp": 12.0,
-      "gmpPercent": 3.64,
+      "gmp": 20.0,
+      "gmpPercent": 6.06,
       "gmpHistory": [
         {
           "date": "2026-10-22",
@@ -130,6 +138,10 @@
         {
           "date": "2026-10-29",
           "value": 12.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 20.0
         }
       ],
       "issueSizeCr": 668.0,
@@ -143,11 +155,11 @@
       "company": "BLS Polymers",
       "sourceUrl": "https://ipowatch.in/bls-polymers-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 150.0,
       "issuePriceHigh": 150.0,
-      "gmp": 51.0,
-      "gmpPercent": 34.0,
+      "gmp": 68.0,
+      "gmpPercent": 45.33,
       "gmpHistory": [
         {
           "date": "2026-10-20",
@@ -188,6 +200,10 @@
         {
           "date": "2026-10-29",
           "value": 51.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 68.0
         }
       ],
       "issueSizeCr": 255.0,
@@ -204,8 +220,8 @@
       "status": "Closed",
       "issuePriceLow": 1665.0,
       "issuePriceHigh": 1665.0,
-      "gmp": 30.0,
-      "gmpPercent": 1.8,
+      "gmp": 40.0,
+      "gmpPercent": 2.4,
       "gmpHistory": [
         {
           "date": "2026-10-24",
@@ -230,6 +246,10 @@
         {
           "date": "2026-10-29",
           "value": 30.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 40.0
         }
       ],
       "issueSizeCr": 1200.0,
@@ -256,6 +276,10 @@
         {
           "date": "2026-10-29",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 56.68,
@@ -269,11 +293,11 @@
       "company": "Johnsoncab Electricals",
       "sourceUrl": "https://ipowatch.in/johnsoncab-electricals-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 200.0,
       "issuePriceHigh": 200.0,
-      "gmp": 10.0,
-      "gmpPercent": 5.0,
+      "gmp": 13.0,
+      "gmpPercent": 6.5,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -286,6 +310,10 @@
         {
           "date": "2026-10-29",
           "value": 10.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 13.0
         }
       ],
       "issueSizeCr": 56.02,
@@ -299,7 +327,7 @@
       "company": "HGS (India)",
       "sourceUrl": "https://ipowatch.in/hgs-india-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 120.0,
       "issuePriceHigh": 120.0,
       "gmp": 0.0,
@@ -316,6 +344,10 @@
         {
           "date": "2026-10-29",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 34.56,
@@ -329,11 +361,11 @@
       "company": "Maxwell Engineering",
       "sourceUrl": "https://ipowatch.in/maxwell-engineering-solutions-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 158.0,
       "issuePriceHigh": 158.0,
-      "gmp": 40.0,
-      "gmpPercent": 25.32,
+      "gmp": 70.0,
+      "gmpPercent": 44.3,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -346,6 +378,10 @@
         {
           "date": "2026-10-29",
           "value": 40.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -359,7 +395,7 @@
       "company": "Vectras Enprocon",
       "sourceUrl": "https://ipowatch.in/vectras-enprocon-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 105.0,
       "issuePriceHigh": 105.0,
       "gmp": 0.0,
@@ -375,6 +411,10 @@
         },
         {
           "date": "2026-10-29",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
           "value": 0.0
         }
       ],
@@ -410,6 +450,10 @@
         {
           "date": "2026-10-29",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 23.33,
@@ -426,8 +470,8 @@
       "status": "Open",
       "issuePriceLow": 203.0,
       "issuePriceHigh": 203.0,
-      "gmp": 35.0,
-      "gmpPercent": 17.24,
+      "gmp": 5.0,
+      "gmpPercent": 2.46,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -444,6 +488,10 @@
         {
           "date": "2026-10-29",
           "value": 35.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 38.05,
@@ -478,6 +526,10 @@
         {
           "date": "2026-10-29",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 28.29,
@@ -491,7 +543,7 @@
       "company": "Wiscon Industries",
       "sourceUrl": "https://ipowatch.in/wiscon-industries-ipo-gmp-today/",
       "category": "SME",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 204.0,
       "issuePriceHigh": 204.0,
       "gmp": 0.0,
@@ -511,6 +563,10 @@
         },
         {
           "date": "2026-10-29",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
           "value": 0.0
         }
       ],
@@ -545,6 +601,10 @@
         },
         {
           "date": "2026-10-29",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-30",
           "value": 0.0
         }
       ],
