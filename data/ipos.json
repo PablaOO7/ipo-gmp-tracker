@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-30T10:20:17+00:00",
+  "updated_at": "2026-10-31T09:52:45+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -12,8 +12,8 @@
       "status": "Open",
       "issuePriceLow": 82.0,
       "issuePriceHigh": 82.0,
-      "gmp": 9.0,
-      "gmpPercent": 10.98,
+      "gmp": 7.0,
+      "gmpPercent": 8.54,
       "gmpHistory": [
         {
           "date": "2026-10-23",
@@ -46,6 +46,10 @@
         {
           "date": "2026-10-30",
           "value": 9.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 7.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -55,15 +59,15 @@
       "listingDate": null
     },
     {
-      "id": "m-k-sons-fine-jewels-mainboard",
-      "company": "M.K.Sons Fine Jewels",
+      "id": "m-k-sons-fine-jewels-closed-6-162-168-3-70-28-30-oct-mainboard",
+      "company": "M.K.Sons Fine Jewels Closed ₹6 🔴 ₹162 ₹168 (3.70%) 28-30 Oct",
       "sourceUrl": "https://ipowatch.in/mksons-fine-jewels-ipo-gmp-today/",
       "category": "Mainboard",
-      "status": "Open",
+      "status": "Upcoming",
       "issuePriceLow": 162.0,
       "issuePriceHigh": 162.0,
-      "gmp": 12.0,
-      "gmpPercent": 7.41,
+      "gmp": 6.0,
+      "gmpPercent": 3.7,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -88,6 +92,10 @@
         {
           "date": "2026-10-30",
           "value": 12.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 6.0
         }
       ],
       "issueSizeCr": 275.4,
@@ -142,6 +150,10 @@
         {
           "date": "2026-10-30",
           "value": 20.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 20.0
         }
       ],
       "issueSizeCr": 668.0,
@@ -158,8 +170,8 @@
       "status": "Closed",
       "issuePriceLow": 150.0,
       "issuePriceHigh": 150.0,
-      "gmp": 68.0,
-      "gmpPercent": 45.33,
+      "gmp": 70.0,
+      "gmpPercent": 46.67,
       "gmpHistory": [
         {
           "date": "2026-10-20",
@@ -204,6 +216,10 @@
         {
           "date": "2026-10-30",
           "value": 68.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 255.0,
@@ -220,8 +236,8 @@
       "status": "Closed",
       "issuePriceLow": 1665.0,
       "issuePriceHigh": 1665.0,
-      "gmp": 40.0,
-      "gmpPercent": 2.4,
+      "gmp": 52.0,
+      "gmpPercent": 3.12,
       "gmpHistory": [
         {
           "date": "2026-10-24",
@@ -250,6 +266,10 @@
         {
           "date": "2026-10-30",
           "value": 40.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 52.0
         }
       ],
       "issueSizeCr": 1200.0,
@@ -280,6 +300,10 @@
         {
           "date": "2026-10-30",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 56.68,
@@ -296,8 +320,8 @@
       "status": "Open",
       "issuePriceLow": 200.0,
       "issuePriceHigh": 200.0,
-      "gmp": 13.0,
-      "gmpPercent": 6.5,
+      "gmp": 10.0,
+      "gmpPercent": 5.0,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -314,6 +338,10 @@
         {
           "date": "2026-10-30",
           "value": 13.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 10.0
         }
       ],
       "issueSizeCr": 56.02,
@@ -330,8 +358,8 @@
       "status": "Open",
       "issuePriceLow": 120.0,
       "issuePriceHigh": 120.0,
-      "gmp": 0.0,
-      "gmpPercent": 0.0,
+      "gmp": 30.0,
+      "gmpPercent": 25.0,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -348,6 +376,10 @@
         {
           "date": "2026-10-30",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 30.0
         }
       ],
       "issueSizeCr": 34.56,
@@ -382,6 +414,10 @@
         {
           "date": "2026-10-30",
           "value": 70.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -415,6 +451,10 @@
         },
         {
           "date": "2026-10-30",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
           "value": 0.0
         }
       ],
@@ -454,6 +494,10 @@
         {
           "date": "2026-10-30",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 23.33,
@@ -467,7 +511,7 @@
       "company": "Ajwa Projects",
       "sourceUrl": "https://ipowatch.in/ajwa-projects-ipo-gmp-today/",
       "category": "SME",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 203.0,
       "issuePriceHigh": 203.0,
       "gmp": 5.0,
@@ -492,6 +536,10 @@
         {
           "date": "2026-10-30",
           "value": 5.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 38.05,
@@ -505,11 +553,11 @@
       "company": "Carver Roboweld",
       "sourceUrl": "https://ipowatch.in/carver-roboweld-ipo-gmp-today/",
       "category": "SME",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 80.0,
       "issuePriceHigh": 80.0,
-      "gmp": 0.0,
-      "gmpPercent": 0.0,
+      "gmp": 5.0,
+      "gmpPercent": 6.25,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -530,6 +578,10 @@
         {
           "date": "2026-10-30",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 28.29,
@@ -568,6 +620,10 @@
         {
           "date": "2026-10-30",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 110.0,
@@ -605,6 +661,10 @@
         },
         {
           "date": "2026-10-30",
+          "value": 0.0
+        },
+        {
+          "date": "2026-10-31",
           "value": 0.0
         }
       ],
