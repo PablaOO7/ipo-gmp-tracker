@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-10-31T09:52:45+00:00",
+  "updated_at": "2026-11-01T10:43:40+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -12,8 +12,8 @@
       "status": "Open",
       "issuePriceLow": 82.0,
       "issuePriceHigh": 82.0,
-      "gmp": 7.0,
-      "gmpPercent": 8.54,
+      "gmp": 9.0,
+      "gmpPercent": 10.98,
       "gmpHistory": [
         {
           "date": "2026-10-23",
@@ -50,6 +50,10 @@
         {
           "date": "2026-10-31",
           "value": 7.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 9.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -59,15 +63,15 @@
       "listingDate": null
     },
     {
-      "id": "m-k-sons-fine-jewels-closed-6-162-168-3-70-28-30-oct-mainboard",
-      "company": "M.K.Sons Fine Jewels Closed ₹6 🔴 ₹162 ₹168 (3.70%) 28-30 Oct",
+      "id": "m-k-sons-fine-jewels-closed-5-162-167-3-09-28-30-oct-mainboard",
+      "company": "M.K.Sons Fine Jewels Closed ₹5 🔴 ₹162 ₹167 (3.09%) 28-30 Oct",
       "sourceUrl": "https://ipowatch.in/mksons-fine-jewels-ipo-gmp-today/",
       "category": "Mainboard",
       "status": "Upcoming",
       "issuePriceLow": 162.0,
       "issuePriceHigh": 162.0,
-      "gmp": 6.0,
-      "gmpPercent": 3.7,
+      "gmp": 5.0,
+      "gmpPercent": 3.09,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -96,6 +100,10 @@
         {
           "date": "2026-10-31",
           "value": 6.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 275.4,
@@ -112,8 +120,8 @@
       "status": "Closed",
       "issuePriceLow": 330.0,
       "issuePriceHigh": 330.0,
-      "gmp": 20.0,
-      "gmpPercent": 6.06,
+      "gmp": 25.0,
+      "gmpPercent": 7.58,
       "gmpHistory": [
         {
           "date": "2026-10-22",
@@ -154,6 +162,10 @@
         {
           "date": "2026-10-31",
           "value": 20.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 25.0
         }
       ],
       "issueSizeCr": 668.0,
@@ -220,6 +232,10 @@
         {
           "date": "2026-10-31",
           "value": 70.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 255.0,
@@ -236,8 +252,8 @@
       "status": "Closed",
       "issuePriceLow": 1665.0,
       "issuePriceHigh": 1665.0,
-      "gmp": 52.0,
-      "gmpPercent": 3.12,
+      "gmp": 65.0,
+      "gmpPercent": 3.9,
       "gmpHistory": [
         {
           "date": "2026-10-24",
@@ -270,6 +286,10 @@
         {
           "date": "2026-10-31",
           "value": 52.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 65.0
         }
       ],
       "issueSizeCr": 1200.0,
@@ -286,8 +306,8 @@
       "status": "Upcoming",
       "issuePriceLow": 94.0,
       "issuePriceHigh": 94.0,
-      "gmp": 0.0,
-      "gmpPercent": 0.0,
+      "gmp": 5.0,
+      "gmpPercent": 5.32,
       "gmpHistory": [
         {
           "date": "2026-10-28",
@@ -304,6 +324,10 @@
         {
           "date": "2026-10-31",
           "value": 0.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 56.68,
@@ -320,8 +344,8 @@
       "status": "Open",
       "issuePriceLow": 200.0,
       "issuePriceHigh": 200.0,
-      "gmp": 10.0,
-      "gmpPercent": 5.0,
+      "gmp": 5.0,
+      "gmpPercent": 2.5,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -342,6 +366,10 @@
         {
           "date": "2026-10-31",
           "value": 10.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 56.02,
@@ -379,6 +407,10 @@
         },
         {
           "date": "2026-10-31",
+          "value": 30.0
+        },
+        {
+          "date": "2026-11-01",
           "value": 30.0
         }
       ],
@@ -418,6 +450,10 @@
         {
           "date": "2026-10-31",
           "value": 70.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -455,6 +491,10 @@
         },
         {
           "date": "2026-10-31",
+          "value": 0.0
+        },
+        {
+          "date": "2026-11-01",
           "value": 0.0
         }
       ],
@@ -498,6 +538,10 @@
         {
           "date": "2026-10-31",
           "value": 0.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 23.33,
@@ -514,8 +558,8 @@
       "status": "Closed",
       "issuePriceLow": 203.0,
       "issuePriceHigh": 203.0,
-      "gmp": 5.0,
-      "gmpPercent": 2.46,
+      "gmp": 1.0,
+      "gmpPercent": 0.49,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -540,6 +584,10 @@
         {
           "date": "2026-10-31",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 1.0
         }
       ],
       "issueSizeCr": 38.05,
@@ -581,6 +629,10 @@
         },
         {
           "date": "2026-10-31",
+          "value": 5.0
+        },
+        {
+          "date": "2026-11-01",
           "value": 5.0
         }
       ],
@@ -624,53 +676,15 @@
         {
           "date": "2026-10-31",
           "value": 0.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 110.0,
       "openDate": "2026-10-27",
       "closeDate": "2026-10-29",
-      "allotmentDate": null,
-      "listingDate": null
-    },
-    {
-      "id": "core4-engineers-sme",
-      "company": "Core4 Engineers",
-      "sourceUrl": "https://ipowatch.in/core4-engineers-ipo-gmp-grey-market-premium/",
-      "category": "SME",
-      "status": "Closed",
-      "issuePriceLow": 93.0,
-      "issuePriceHigh": 93.0,
-      "gmp": 0.0,
-      "gmpPercent": 0.0,
-      "gmpHistory": [
-        {
-          "date": "2026-10-25",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "value": 0.0
-        }
-      ],
-      "issueSizeCr": 54.82,
-      "openDate": "2026-10-23",
-      "closeDate": "2026-10-27",
       "allotmentDate": null,
       "listingDate": null
     }
