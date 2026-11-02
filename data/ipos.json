@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-11-01T10:43:40+00:00",
+  "updated_at": "2026-11-02T11:32:21+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -54,6 +54,10 @@
         {
           "date": "2026-11-01",
           "value": 9.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 9.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -104,6 +108,10 @@
         {
           "date": "2026-11-01",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 275.4,
@@ -120,8 +128,8 @@
       "status": "Closed",
       "issuePriceLow": 330.0,
       "issuePriceHigh": 330.0,
-      "gmp": 25.0,
-      "gmpPercent": 7.58,
+      "gmp": 26.0,
+      "gmpPercent": 7.88,
       "gmpHistory": [
         {
           "date": "2026-10-22",
@@ -166,6 +174,10 @@
         {
           "date": "2026-11-01",
           "value": 25.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 26.0
         }
       ],
       "issueSizeCr": 668.0,
@@ -236,6 +248,10 @@
         {
           "date": "2026-11-01",
           "value": 70.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 255.0,
@@ -252,8 +268,8 @@
       "status": "Closed",
       "issuePriceLow": 1665.0,
       "issuePriceHigh": 1665.0,
-      "gmp": 65.0,
-      "gmpPercent": 3.9,
+      "gmp": 54.0,
+      "gmpPercent": 3.24,
       "gmpHistory": [
         {
           "date": "2026-10-24",
@@ -290,6 +306,10 @@
         {
           "date": "2026-11-01",
           "value": 65.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 54.0
         }
       ],
       "issueSizeCr": 1200.0,
@@ -303,11 +323,11 @@
       "company": "Vedant Poly Fabs",
       "sourceUrl": "https://ipowatch.in/vedant-poly-fabs-ipo-gmp-today/",
       "category": "SME",
-      "status": "Upcoming",
+      "status": "Open",
       "issuePriceLow": 94.0,
       "issuePriceHigh": 94.0,
-      "gmp": 5.0,
-      "gmpPercent": 5.32,
+      "gmp": 15.0,
+      "gmpPercent": 15.96,
       "gmpHistory": [
         {
           "date": "2026-10-28",
@@ -328,6 +348,10 @@
         {
           "date": "2026-11-01",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 15.0
         }
       ],
       "issueSizeCr": 56.68,
@@ -369,6 +393,10 @@
         },
         {
           "date": "2026-11-01",
+          "value": 5.0
+        },
+        {
+          "date": "2026-11-02",
           "value": 5.0
         }
       ],
@@ -412,6 +440,10 @@
         {
           "date": "2026-11-01",
           "value": 30.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 30.0
         }
       ],
       "issueSizeCr": 34.56,
@@ -454,6 +486,10 @@
         {
           "date": "2026-11-01",
           "value": 70.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -495,6 +531,10 @@
         },
         {
           "date": "2026-11-01",
+          "value": 0.0
+        },
+        {
+          "date": "2026-11-02",
           "value": 0.0
         }
       ],
@@ -542,6 +582,10 @@
         {
           "date": "2026-11-01",
           "value": 0.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 23.33,
@@ -587,6 +631,10 @@
         },
         {
           "date": "2026-11-01",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-02",
           "value": 1.0
         }
       ],
@@ -634,6 +682,10 @@
         {
           "date": "2026-11-01",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 28.29,
@@ -679,6 +731,10 @@
         },
         {
           "date": "2026-11-01",
+          "value": 0.0
+        },
+        {
+          "date": "2026-11-02",
           "value": 0.0
         }
       ],
