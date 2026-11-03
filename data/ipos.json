@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-11-02T11:32:21+00:00",
+  "updated_at": "2026-11-03T11:12:03+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -9,7 +9,7 @@
       "company": "Bombay Coated and Special Steels",
       "sourceUrl": "https://ipowatch.in/bombay-coated-special-steels-ipo-gmp-grey-market-premium/",
       "category": "Mainboard",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 82.0,
       "issuePriceHigh": 82.0,
       "gmp": 9.0,
@@ -58,6 +58,10 @@
         {
           "date": "2026-11-02",
           "value": 9.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 9.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -67,15 +71,15 @@
       "listingDate": null
     },
     {
-      "id": "m-k-sons-fine-jewels-closed-5-162-167-3-09-28-30-oct-mainboard",
-      "company": "M.K.Sons Fine Jewels Closed ₹5 🔴 ₹162 ₹167 (3.09%) 28-30 Oct",
+      "id": "m-k-sons-fine-jewels-mainboard",
+      "company": "M.K.Sons Fine Jewels",
       "sourceUrl": "https://ipowatch.in/mksons-fine-jewels-ipo-gmp-today/",
       "category": "Mainboard",
-      "status": "Upcoming",
+      "status": "Closed",
       "issuePriceLow": 162.0,
       "issuePriceHigh": 162.0,
-      "gmp": 5.0,
-      "gmpPercent": 3.09,
+      "gmp": 7.0,
+      "gmpPercent": 4.32,
       "gmpHistory": [
         {
           "date": "2026-10-25",
@@ -112,6 +116,10 @@
         {
           "date": "2026-11-02",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 7.0
         }
       ],
       "issueSizeCr": 275.4,
@@ -128,8 +136,8 @@
       "status": "Closed",
       "issuePriceLow": 330.0,
       "issuePriceHigh": 330.0,
-      "gmp": 26.0,
-      "gmpPercent": 7.88,
+      "gmp": 15.0,
+      "gmpPercent": 4.55,
       "gmpHistory": [
         {
           "date": "2026-10-22",
@@ -178,6 +186,10 @@
         {
           "date": "2026-11-02",
           "value": 26.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 15.0
         }
       ],
       "issueSizeCr": 668.0,
@@ -252,69 +264,15 @@
         {
           "date": "2026-11-02",
           "value": 70.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 70.0
         }
       ],
       "issueSizeCr": 255.0,
       "openDate": "2026-10-27",
       "closeDate": "2026-10-29",
-      "allotmentDate": null,
-      "listingDate": null
-    },
-    {
-      "id": "eaaa-india-alternatives-mainboard",
-      "company": "EAAA India Alternatives",
-      "sourceUrl": "https://ipowatch.in/eaaa-india-alternatives-ipo-gmp-today/",
-      "category": "Mainboard",
-      "status": "Closed",
-      "issuePriceLow": 1665.0,
-      "issuePriceHigh": 1665.0,
-      "gmp": 54.0,
-      "gmpPercent": 3.24,
-      "gmpHistory": [
-        {
-          "date": "2026-10-24",
-          "value": 121.0
-        },
-        {
-          "date": "2026-10-25",
-          "value": 80.0
-        },
-        {
-          "date": "2026-10-26",
-          "value": 50.0
-        },
-        {
-          "date": "2026-10-27",
-          "value": 20.0
-        },
-        {
-          "date": "2026-10-28",
-          "value": 12.0
-        },
-        {
-          "date": "2026-10-29",
-          "value": 30.0
-        },
-        {
-          "date": "2026-10-30",
-          "value": 40.0
-        },
-        {
-          "date": "2026-10-31",
-          "value": 52.0
-        },
-        {
-          "date": "2026-11-01",
-          "value": 65.0
-        },
-        {
-          "date": "2026-11-02",
-          "value": 54.0
-        }
-      ],
-      "issueSizeCr": 1200.0,
-      "openDate": "2026-10-26",
-      "closeDate": "2026-10-28",
       "allotmentDate": null,
       "listingDate": null
     },
@@ -352,6 +310,10 @@
         {
           "date": "2026-11-02",
           "value": 15.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 15.0
         }
       ],
       "issueSizeCr": 56.68,
@@ -368,8 +330,8 @@
       "status": "Open",
       "issuePriceLow": 200.0,
       "issuePriceHigh": 200.0,
-      "gmp": 5.0,
-      "gmpPercent": 2.5,
+      "gmp": 10.0,
+      "gmpPercent": 5.0,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -398,6 +360,10 @@
         {
           "date": "2026-11-02",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 10.0
         }
       ],
       "issueSizeCr": 56.02,
@@ -444,6 +410,10 @@
         {
           "date": "2026-11-02",
           "value": 30.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 30.0
         }
       ],
       "issueSizeCr": 34.56,
@@ -460,8 +430,8 @@
       "status": "Open",
       "issuePriceLow": 158.0,
       "issuePriceHigh": 158.0,
-      "gmp": 70.0,
-      "gmpPercent": 44.3,
+      "gmp": 80.0,
+      "gmpPercent": 50.63,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -490,6 +460,10 @@
         {
           "date": "2026-11-02",
           "value": 70.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 80.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -536,6 +510,10 @@
         {
           "date": "2026-11-02",
           "value": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 53.05,
@@ -549,7 +527,7 @@
       "company": "Antala Industries",
       "sourceUrl": "https://ipowatch.in/antala-industries-ipo-gmp-today/",
       "category": "SME",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 67.0,
       "issuePriceHigh": 67.0,
       "gmp": 0.0,
@@ -585,6 +563,10 @@
         },
         {
           "date": "2026-11-02",
+          "value": 0.0
+        },
+        {
+          "date": "2026-11-03",
           "value": 0.0
         }
       ],
@@ -636,6 +618,10 @@
         {
           "date": "2026-11-02",
           "value": 1.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 1.0
         }
       ],
       "issueSizeCr": 38.05,
@@ -686,6 +672,10 @@
         {
           "date": "2026-11-02",
           "value": 5.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 5.0
         }
       ],
       "issueSizeCr": 28.29,
@@ -735,6 +725,10 @@
         },
         {
           "date": "2026-11-02",
+          "value": 0.0
+        },
+        {
+          "date": "2026-11-03",
           "value": 0.0
         }
       ],
