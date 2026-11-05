@@ -1,6 +1,6 @@
 {
   "source": "https://ipowatch.in/",
-  "updated_at": "2026-11-04T11:22:24+00:00",
+  "updated_at": "2026-11-05T11:20:13+00:00",
   "data_state": "live",
   "demo": false,
   "ipos": [
@@ -66,6 +66,10 @@
         {
           "date": "2026-11-04",
           "value": 9.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 9.0
         }
       ],
       "issueSizeCr": 183.06,
@@ -75,151 +79,15 @@
       "listingDate": null
     },
     {
-      "id": "m-k-sons-fine-jewels-mainboard",
-      "company": "M.K.Sons Fine Jewels",
-      "sourceUrl": "https://ipowatch.in/mksons-fine-jewels-ipo-gmp-today/",
-      "category": "Mainboard",
-      "status": "Closed",
-      "issuePriceLow": 162.0,
-      "issuePriceHigh": 162.0,
-      "gmp": 10.0,
-      "gmpPercent": 6.17,
-      "gmpHistory": [
-        {
-          "date": "2026-10-25",
-          "value": 8.0
-        },
-        {
-          "date": "2026-10-26",
-          "value": 8.0
-        },
-        {
-          "date": "2026-10-27",
-          "value": 8.0
-        },
-        {
-          "date": "2026-10-28",
-          "value": 10.0
-        },
-        {
-          "date": "2026-10-29",
-          "value": 15.0
-        },
-        {
-          "date": "2026-10-30",
-          "value": 12.0
-        },
-        {
-          "date": "2026-10-31",
-          "value": 6.0
-        },
-        {
-          "date": "2026-11-01",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-02",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-03",
-          "value": 7.0
-        },
-        {
-          "date": "2026-11-04",
-          "value": 10.0
-        }
-      ],
-      "issueSizeCr": 275.4,
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
-      "allotmentDate": null,
-      "listingDate": null
-    },
-    {
-      "id": "sfc-environmental-technologies-mainboard",
-      "company": "SFC Environmental Technologies",
-      "sourceUrl": "https://ipowatch.in/sfc-environmental-technologies-ipo-gmp-grey-market-premium/",
-      "category": "Mainboard",
-      "status": "Closed",
-      "issuePriceLow": 330.0,
-      "issuePriceHigh": 330.0,
-      "gmp": 15.0,
-      "gmpPercent": 4.55,
-      "gmpHistory": [
-        {
-          "date": "2026-10-22",
-          "value": 20.0
-        },
-        {
-          "date": "2026-10-23",
-          "value": 21.0
-        },
-        {
-          "date": "2026-10-24",
-          "value": 21.0
-        },
-        {
-          "date": "2026-10-25",
-          "value": 30.0
-        },
-        {
-          "date": "2026-10-26",
-          "value": 32.0
-        },
-        {
-          "date": "2026-10-27",
-          "value": 22.0
-        },
-        {
-          "date": "2026-10-28",
-          "value": 18.0
-        },
-        {
-          "date": "2026-10-29",
-          "value": 12.0
-        },
-        {
-          "date": "2026-10-30",
-          "value": 20.0
-        },
-        {
-          "date": "2026-10-31",
-          "value": 20.0
-        },
-        {
-          "date": "2026-11-01",
-          "value": 25.0
-        },
-        {
-          "date": "2026-11-02",
-          "value": 26.0
-        },
-        {
-          "date": "2026-11-03",
-          "value": 15.0
-        },
-        {
-          "date": "2026-11-04",
-          "value": 15.0
-        }
-      ],
-      "issueSizeCr": 668.0,
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": null,
-      "listingDate": null
-    },
-    {
       "id": "vedant-poly-fabs-sme",
       "company": "Vedant Poly Fabs",
       "sourceUrl": "https://ipowatch.in/vedant-poly-fabs-ipo-gmp-today/",
       "category": "SME",
-      "status": "Open",
+      "status": "Closed",
       "issuePriceLow": 94.0,
       "issuePriceHigh": 94.0,
-      "gmp": 11.0,
-      "gmpPercent": 11.7,
+      "gmp": 1.0,
+      "gmpPercent": 1.06,
       "gmpHistory": [
         {
           "date": "2026-10-28",
@@ -252,6 +120,10 @@
         {
           "date": "2026-11-04",
           "value": 11.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 1.0
         }
       ],
       "issueSizeCr": 56.68,
@@ -306,6 +178,10 @@
         {
           "date": "2026-11-04",
           "value": 8.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 8.0
         }
       ],
       "issueSizeCr": 56.02,
@@ -322,8 +198,8 @@
       "status": "Closed",
       "issuePriceLow": 120.0,
       "issuePriceHigh": 120.0,
-      "gmp": 25.0,
-      "gmpPercent": 20.83,
+      "gmp": 28.0,
+      "gmpPercent": 23.33,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -360,6 +236,10 @@
         {
           "date": "2026-11-04",
           "value": 25.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 28.0
         }
       ],
       "issueSizeCr": 34.56,
@@ -376,8 +256,8 @@
       "status": "Closed",
       "issuePriceLow": 158.0,
       "issuePriceHigh": 158.0,
-      "gmp": 80.0,
-      "gmpPercent": 50.63,
+      "gmp": 113.0,
+      "gmpPercent": 71.52,
       "gmpHistory": [
         {
           "date": "2026-10-27",
@@ -414,6 +294,10 @@
         {
           "date": "2026-11-04",
           "value": 80.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 113.0
         }
       ],
       "issueSizeCr": 57.64,
@@ -467,6 +351,10 @@
         },
         {
           "date": "2026-11-04",
+          "value": 0.0
+        },
+        {
+          "date": "2026-11-05",
           "value": 0.0
         }
       ],
@@ -526,127 +414,15 @@
         {
           "date": "2026-11-04",
           "value": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 0.0
         }
       ],
       "issueSizeCr": 22.98,
       "openDate": "2026-10-29",
       "closeDate": "2026-11-05",
-      "allotmentDate": null,
-      "listingDate": null
-    },
-    {
-      "id": "ajwa-projects-sme",
-      "company": "Ajwa Projects",
-      "sourceUrl": "https://ipowatch.in/ajwa-projects-ipo-gmp-today/",
-      "category": "SME",
-      "status": "Closed",
-      "issuePriceLow": 203.0,
-      "issuePriceHigh": 203.0,
-      "gmp": 1.0,
-      "gmpPercent": 0.49,
-      "gmpHistory": [
-        {
-          "date": "2026-10-25",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "value": 10.0
-        },
-        {
-          "date": "2026-10-28",
-          "value": 38.0
-        },
-        {
-          "date": "2026-10-29",
-          "value": 35.0
-        },
-        {
-          "date": "2026-10-30",
-          "value": 5.0
-        },
-        {
-          "date": "2026-10-31",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-01",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-02",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-03",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-04",
-          "value": 1.0
-        }
-      ],
-      "issueSizeCr": 38.05,
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
-      "allotmentDate": null,
-      "listingDate": null
-    },
-    {
-      "id": "carver-roboweld-sme",
-      "company": "Carver Roboweld",
-      "sourceUrl": "https://ipowatch.in/carver-roboweld-ipo-gmp-today/",
-      "category": "SME",
-      "status": "Closed",
-      "issuePriceLow": 80.0,
-      "issuePriceHigh": 80.0,
-      "gmp": 5.0,
-      "gmpPercent": 6.25,
-      "gmpHistory": [
-        {
-          "date": "2026-10-25",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "value": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-01",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-02",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-03",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-04",
-          "value": 5.0
-        }
-      ],
-      "issueSizeCr": 28.29,
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
       "allotmentDate": null,
       "listingDate": null
     }
